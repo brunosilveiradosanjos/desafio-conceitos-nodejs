@@ -112,7 +112,7 @@ app.post("/repositories/:id/like", (request, response) => {
 
   // console.log(repositories[repositoryIndex])
 
-  return response.json(id);
+  return response.json(repositories[repositoryIndex]);
 });
 
 module.exports = app;
